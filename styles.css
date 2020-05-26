@@ -1,54 +1,75 @@
 body {
-  margin-top: 4rem;
-  margin-left: 7rem;
-  margin-right: 7rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 6rem;
   font-family: helvetica;
+  background-color: #000;
+  color: #fff;
 }
-header {
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header {
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  overflow-x: hidden;
+  padding: 8px 0;
+  height: 100%
 }
-header h1 {
-  font-size: 5rem;
+main {
+  margin-left: 20%;
+}
+nav {
+  padding: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  letter-spacing: 2px;
 }
 .logo img{
-  width: 20%;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 ul {
   list-style-type: none;
-
 }
 li {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1rem;
   float: right;
-  display: inline;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 2.5rem;
+  margin: 1rem;
 }
-.row {
+
+/* .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .column {
   padding-right: 3rem;
-}
+} */
+
+
+/* LINK COLORS AND PROPERTIES */
 a:link {
   text-decoration: none;
 }
 a:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 a:hover {
-  color: orange;
+  color: #ee7639;
+  font-weight: bold;
 }
 a:active {
-  color: orange;
+  color: #ee7639;
 }
 
-h2 {
+
+/* TEXT PROPERTIES */
+/* h2 {
   font-size: 2.5rem;
   margin-block-start: 0em;
 }
@@ -61,4 +82,4 @@ h4 {
 h5 {
   margin-top: 0rem;
   margin-bottom: 0rem;
-}
+} */
