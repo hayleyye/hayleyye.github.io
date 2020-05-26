@@ -68,21 +68,22 @@ a:active {
 }
 
 /* TEXT PROPERTIES */
-/* h1 {
+h1 {
   font-family: myfontregular;
   letter-spacing: 1.5px;
   font-weight: normal;
-  font-size: 55px;
+  font-size: 45px;
   line-height: 1.2;
-} */
-h1 {
+  margin: 8px;
+}
+/* h1 {
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 2px;
   font-weight: 300;
   font-size: 35px;
   line-height: 1.5;
   margin: 8px;
-}
+} */
 /* h2 {
   font-size: 2.5rem;
   margin-block-start: 0em;
