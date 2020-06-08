@@ -53,6 +53,9 @@ body {
   margin-top: 3rem;
   float: right;
 }
+.logo-mobile img {
+
+}
 ul {
   list-style-type: none;
   padding-inline-start: 0;
@@ -64,7 +67,7 @@ li {
   text-transform: uppercase;
   font-size: 1rem;
   /* float: right; */
-  /* margin: 1rem; */
+  margin: 1rem;
 }
 
 /* LINK COLORS AND PROPERTIES */
@@ -83,6 +86,9 @@ a:visited {
 a:hover {
   color: #ee7639;
   font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ee7639;
 }
 a:active {
   color: #ee7639;

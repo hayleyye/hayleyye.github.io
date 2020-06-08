@@ -29,13 +29,13 @@ $(document).ready(function () {
 
     updateNavbarClass('fixed-left');
 
-    themes.forEach(function (theme) {
-        $('#theme_select').append($('<option>', {
-            value: theme,
-            text: theme.charAt(0).toUpperCase() + theme.slice(1),
-            selected: theme === 'materia'
-        }));
-    });
+    // themes.forEach(function (theme) {
+    //     $('#theme_select').append($('<option>', {
+    //         value: theme,
+    //         text: theme.charAt(0).toUpperCase() + theme.slice(1),
+    //         selected: theme === 'materia'
+    //     }));
+    // });
 });
 
 function updateNavbarClass(className) {
