@@ -116,6 +116,9 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #ee7639;
 }
+.navbar-dark .navbar-nav .nav-link {
+  color: #444444;
+}
 .navbar-toggler {
   color: #444444;
 }
