@@ -8,10 +8,10 @@
   color: white;
 } */
 body {
-  background-color: #000000;
-  color: #cfcfcf;
-  /* background-color: white;
-  color: #444444; */
+  /* background-color: #000000;
+  color: #cfcfcf; */
+  background-color: white;
+  color: #444444;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -49,6 +49,8 @@ main {
 .container {
   margin-left: 150px;
 } */
+
+/* NAVBAR */
 .logo img{
   width: 70%;
   margin-bottom: 2rem;
@@ -72,16 +74,36 @@ li {
   margin: 1rem;
 }
 
+/* CARDS */
+.card {
+  border-radius: 0;
+}
+.card img {
+  transition: .3s;
+  border-radius: 0;
+}
+.card:hover img {
+  filter: blur(2px) brightness(60%);
+}
+.card :not(img) {
+  opacity: 0;
+  transition: .3s;
+}
+.card:hover :not(img){
+  color: white;
+  opacity: 1;
+
+}
 /* LINK COLORS AND PROPERTIES */
 a:link {
   text-decoration: none;
-  color: #cfcfcf;
-  /* color: #444444; */
+  /* color: #cfcfcf; */
+  color: #444444;
 }
 a:visited {
   text-decoration: none;
-  color: #cfcfcf;
-  /* color: #444444; */
+  /* color: #cfcfcf; */
+  color: #444444;
 }
 #currentpage {
   color: #ee7639;
@@ -105,6 +127,7 @@ a:active {
   font-weight: bold;
 }
 
+
 /* TEXT PROPERTIES */
 /* h1 {
   font-family: myfontregular;
@@ -121,6 +144,11 @@ h1 {
   font-size: 50px;
   line-height: 1.5;
   margin-top: : 10px;
+}
+/* h4 card title */
+.card-title {
+  font-size: 30px;
+  font-size: 2vw;
 }
 /* h2 {
   font-size: 2.5rem;
